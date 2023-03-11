@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* this is connect us design */
+
+.connect{
+  background-color: #282c34;
+  display:flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0 200px 0;
+  height: auto;
+}
+
+.connect h1{
+  color:rgb(229, 255, 0);
+}
+
+.connect img {
+  width: 92%;
+}
+
+/* css */
+.connect form input, .connect form textarea {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  color: #fff;
+  margin: 0 0 8px 0;
+  padding: 18px 26px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  transition: 0.3s ease-in-out;
+}
+.connect form input:focus, .connect form textarea:focus {
+  background: rgba(255, 255, 255, 1);
+  color: #121212;
+}
+.connect form input::placeholder, .connect form textarea::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+.connect form input:focus::placeholder, .connect form textarea:focus::placeholder {
+  color: #121212;
+  opacity: 0.8;
+}
+.connect form button {
+  font-weight: 800;
+  color: #fff;
+  background-color: rgb(93, 36, 131);;
+  /*background-color: rgb(30, 27, 27);*/
+  padding: 14px 48px;
+  font-size: 20px;
+  margin-top: 25px;
+  border-radius: 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+.connect form button:hover {
+  color: yellow;
+}
+
+.connect form button:hover::before {
+  width: 100%;
+}
